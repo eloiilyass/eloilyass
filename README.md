@@ -51,7 +51,7 @@ I am currently looking for an **internship or junior position** to apply and gro
 ✔️ DNS configuration
 ✔️ User & Organizational Units management
 
-👉 https://github.com/eloiilyass/Active-Directory-Lab
+👉 https://github.com/eloiilyass/Active-Directory-Lab/blob/main/README.md
 
 ---
 
@@ -61,7 +61,7 @@ I am currently looking for an **internship or junior position** to apply and gro
 ✔️ NTFS permissions (department isolation)
 ✔️ Group Policy (Control Panel restriction)
 
-👉 https://github.com/eloiilyass/Active-Directory-Enterprise-Lab
+👉 https://github.com/eloiilyass/Active-Directory-Enterprise-Lab/blob/main/README.md
 
 ---
 
