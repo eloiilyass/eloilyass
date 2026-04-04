@@ -72,7 +72,7 @@ I am currently looking for an **internship or junior position** to apply and gro
 ✔️ SSH remote management  
 ✔️ Apache web server deployment  
 
-👉 https://github.com/eloiilyass/Linux
+👉 https://github.com/eloiilyass/Linux/blob/main/README.md
 
 ## 📊 Currently Learning
 
