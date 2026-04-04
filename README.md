@@ -1,90 +1,140 @@
-# 👋 Hi, I'm Ilyass El Ouarrari
+<div align="center">
 
-🎯 Junior System & Network Administrator
-📍 Marrakech, Morocco
+# Ilyass El Ouarrari
+
+**Junior System & Network Administrator**
+
+📍 Marrakech, Morocco · 📧 ieloirrari@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/ilyass-elouarrari/)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ilyass%20El%20Ouarrari-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ilyass-elouarrari/)
+[![Email](https://img.shields.io/badge/Email-ieloirrari%40gmail.com-D14836?style=flat-square&logo=gmail)](mailto:ieloirrari@gmail.com)
+![Status](https://img.shields.io/badge/Status-Open%20to%20Work-2ea44f?style=flat-square)
+![Role](https://img.shields.io/badge/Target-Internship%20%7C%20Junior%20Position-6e40c9?style=flat-square)
+
+</div>
 
 ---
 
-## 💼 About Me
+## 👤 About Me
 
-I am a motivated IT professional with a strong foundation in **Systems and Network Administration**.
+IT professional with hands-on experience building and managing **enterprise-grade infrastructure** in virtualized lab environments.
 
-I specialize in building and managing enterprise environments using:
+My work covers the full stack of system and network administration: Windows Server deployment, Active Directory management, Linux server administration, network security with pfSense, and access control through GPO and NTFS permissions.
 
-* Active Directory & Windows Server
-* Network configuration and troubleshooting
-* Security and access control (NTFS, GPO)
-
-I am currently looking for an **internship or junior position** to apply and grow my skills in a professional environment.
+Currently seeking an **internship or junior position** to apply these skills in a professional environment.
 
 ---
 
 ## 🛠️ Technical Skills
 
-### 🔹 Systems & Administration
+### Systems & Administration
 
-* Windows Server (Active Directory, DNS, DHCP)
-* Linux Administration (Ubuntu, CentOS)
+| Technology | Skills |
+|---|---|
+| Windows Server 2025 | Installation, AD DS, DNS, DHCP, Server Manager, DC Promotion |
+| Active Directory | OUs, Users, GPO, Group Policy, Domain Management |
+| Linux — Ubuntu Server | CLI administration, apt, systemctl, SSH, Apache |
 
-### 🔹 Networking
+### Networking & Security
 
-* TCP/IP, DNS, DHCP
-* Network troubleshooting
+| Area | Skills |
+|---|---|
+| Network Services | TCP/IP, DNS, DHCP, NAT, Routing, Static IP |
+| Firewall & Security | pfSense CE, Firewall Rules, WAN/LAN Segmentation |
+| Access Control | NTFS Permissions, Group Policy Objects (GPO), Least Privilege |
+| Troubleshooting | Root cause analysis, connectivity diagnosis, ping, ipconfig |
 
-### 🔹 Virtualization
+### Virtualization & Tools
 
-* VMware Workstation
-* Hyper-V
-
-### 🔹 Security
-
-* NTFS Permissions
-* Group Policy (GPO)
+`VMware Workstation` · `Hyper-V` · `Multi-VM Lab Design` · `Network Isolation`
 
 ---
 
 ## 🚀 Projects
 
-### 🔹 Active Directory Lab
+### 🏢 Enterprise Active Directory Lab
 
-✔️ Domain Controller setup
-✔️ DNS configuration
-✔️ User & Organizational Units management
+> Windows Server · AD DS · GPO · NTFS · SMB · File Server
 
-👉 https://github.com/eloiilyass/Active-Directory-Lab/blob/main/README.md
+Built a complete enterprise domain environment with department-based Organizational Units, domain users, NTFS file server permissions, and Group Policy enforcement.
 
----
+- Structured domain: IT, HR, Finance OUs with 6 domain users
+- Implemented NTFS permissions — department-level folder isolation
+- Created and enforced `HR-Policy` GPO — Control Panel restriction
+- Validated all configurations through functional testing
 
-### 🔹 Enterprise Active Directory Lab
-
-✔️ File Server configuration
-✔️ NTFS permissions (department isolation)
-✔️ Group Policy (Control Panel restriction)
-
-👉 https://github.com/eloiilyass/Active-Directory-Enterprise-Lab/blob/main/README.md
+👉 [View Project](https://github.com/eloiilyass/Active-Directory-Enterprise-Lab/blob/main/README.md)
 
 ---
 
-🔹 Linux Server Lab
+### ⚙️ Active Directory Infrastructure Setup
 
-✔️ Ubuntu Server installation & configuration  
-✔️ Network setup and troubleshooting  
-✔️ SSH remote management  
-✔️ Apache web server deployment  
+> Windows Server 2025 · AD DS · DNS · Domain Controller · VMware
 
-👉 https://github.com/eloiilyass/Linux/blob/main/README.md
+Deployed a Windows Server 2025 domain from scratch: VM provisioning, static IP/DNS configuration, AD DS role installation, Domain Controller promotion, and Windows 10 client domain join.
 
-## 📊 Currently Learning
+- Configured static networking: Server `192.168.56.10` · Client `192.168.56.20`
+- Promoted server to Domain Controller with integrated DNS
+- Created OUs and domain users via ADUC
+- Successfully joined Windows 10 client to the domain
 
-* Advanced Active Directory
-* Cloud (Azure basics)
-* PowerShell scripting
+👉 [View Project](https://github.com/eloiilyass/Active-Directory-Lab/blob/main/README.md)
 
 ---
 
-## 📫 Contact Me
+### 🔥 pfSense Network Security Lab
 
-* 🔗 LinkedIn: https://www.linkedin.com/in/ilyass-elouarrari/
-* 📧 Email: [ieloirrari@gmail.com](mailto:ieloirrari@gmail.com)
+> pfSense CE · Firewall Rules · NAT · DHCP · Routing · Troubleshooting
+
+Deployed a pfSense firewall with WAN/LAN segmentation, DHCP, NAT, and firewall rules. Diagnosed and resolved a real connectivity issue during the lab.
+
+- Configured WAN (NAT) and LAN (`192.168.56.1/24`) interfaces
+- Enabled DHCP pool: `192.168.56.100 – 192.168.56.200`
+- Applied outbound firewall rules for controlled traffic flow
+- **Troubleshooting:** Identified missing default gateway → restored full internet access
+
+👉 [View Project](https://github.com/eloiilyass/pFsence/blob/main/README.md)
 
 ---
+
+### 🐧 Linux Server Lab — Ubuntu Server 22.04
+
+> Ubuntu Server · Linux CLI · OpenSSH · Apache · VMware
+
+Deployed Ubuntu Server 22.04 in VMware, configured the system environment, enabled SSH remote access from a Windows client, and deployed an Apache web server.
+
+- Performed full post-install configuration: updates, IP verification, connectivity
+- Enabled and tested SSH remote session from Windows 10
+- Installed and validated Apache HTTP Server via browser
+
+👉 [View Project](https://github.com/eloiilyass/Linux/blob/main/README.md)
+
+---
+
+## 📈 Currently Learning
+
+- Advanced Active Directory (Group Policy deep dive, replication)
+- Cloud fundamentals — Microsoft Azure
+- PowerShell scripting for automation
+
+---
+
+## 📫 Contact
+
+<div align="center">
+
+| | |
+|---|---|
+| 🔗 LinkedIn | [linkedin.com/in/ilyass-elouarrari](https://www.linkedin.com/in/ilyass-elouarrari/) |
+| 📧 Email | [ieloirrari@gmail.com](mailto:ieloirrari@gmail.com) |
+| 📍 Location | Marrakech, Morocco |
+
+</div>
+
+---
+
+<div align="center">
+
+*All projects are built in isolated VMware lab environments and fully documented with screenshots and test results.*
+
+</div>
