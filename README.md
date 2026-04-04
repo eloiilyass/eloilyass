@@ -65,6 +65,15 @@ I am currently looking for an **internship or junior position** to apply and gro
 
 ---
 
+🔹 Linux Server Lab
+
+✔️ Ubuntu Server installation & configuration  
+✔️ Network setup and troubleshooting  
+✔️ SSH remote management  
+✔️ Apache web server deployment  
+
+👉 https://github.com/eloiilya
+
 ## 📊 Currently Learning
 
 * Advanced Active Directory
